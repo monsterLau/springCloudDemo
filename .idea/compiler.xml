@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservicecloud" target="1.5" />
+      <module name="springcloudcoustomerdept80" target="1.8" />
       <module name="springcloudproviderdept" target="1.8" />
     </bytecodeTargetLevel>
   </component>
