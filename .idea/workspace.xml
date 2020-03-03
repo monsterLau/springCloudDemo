@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c3f7d3-3fbd-4bc4-a5bd-10ed65105461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/DeptConsumer_80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/controller/DeptConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="21c3f7d3-3fbd-4bc4-a5bd-10ed65105461" name="Default Changelist" comment="创建8080端口子Module">
+      <change afterPath="$PROJECT_DIR$/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/springcloudconsumerdept80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/springcloudeureka7001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/lau/springcloud/EurekaServer_7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/springcloudeureka7002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/lau/springcloud/EurekaServer_7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/springcloudeureka7003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/lau/springcloud/EurekaServer_7003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/DeptProvider_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/DeptProvider_8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/DeptProvider_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/DeptProvider_8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/controller/DeptController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -90,14 +108,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21609196" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lau.springcloud" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\springCloudDemo\springcloud-eureka-7003\src\main\resources" />
+      <recent name="D:\projects\springCloudDemo\springcloud-eureka-7002\src\main\resources" />
+      <recent name="D:\projects\springCloudDemo" />
       <recent name="D:\projects\springCloudDemo\springcloud-consumer-dept-80\src\main\resources" />
       <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8001\src\main\resources\mybatis\mapper" />
-      <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8001\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptConsumer_80">
+  <component name="RunManager" selected="Spring Boot.DeptProvider_8001">
     <configuration name="DeptConsumer_80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloudconsumerdept80" />
       <extension name="coverage">
@@ -139,10 +166,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloudeureka7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lau.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.EurekaServer_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer_7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloudeureka7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lau.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.EurekaServer_7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer_7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloudeureka7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lau.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.EurekaServer_7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DeptConsumer_80" />
         <item itemvalue="Spring Boot.DeptProvider_8001" />
+        <item itemvalue="Spring Boot.EurekaServer_7001" />
+        <item itemvalue="Spring Boot.EurekaServer_7003" />
+        <item itemvalue="Spring Boot.EurekaServer_7002" />
+        <item itemvalue="Spring Boot.DeptConsumer_80" />
       </list>
     </recent_temporary>
   </component>
@@ -172,8 +241,17 @@
       <workItem from="1582765831535" duration="277000" />
       <workItem from="1583051552178" duration="599000" />
       <workItem from="1583132678471" duration="1051000" />
-      <workItem from="1583158076628" duration="3201000" />
+      <workItem from="1583158076628" duration="3482000" />
+      <workItem from="1583202411097" duration="10225000" />
     </task>
+    <task id="LOCAL-00001" summary="创建8080端口子Module">
+      <created>1583163001228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163001228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +300,10 @@
       </set>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建8080端口子Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建8080端口子Module" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -232,10 +314,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/controller/DeptController.java</url>
-          <line>24</line>
+          <line>33</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springcloud$DeptProvider_8001.ic" NAME="DeptProvider_8001 Coverage Results" MODIFIED="1583216452315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lau.springcloud.*</FILTER>
+    </SUITE>
   </component>
 </project>
