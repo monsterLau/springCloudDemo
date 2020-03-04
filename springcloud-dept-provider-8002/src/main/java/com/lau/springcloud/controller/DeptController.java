@@ -7,14 +7,13 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
 @RequestMapping("/dept")
 public class DeptController {
 
-    @Resource
+    @Autowired
     private DeptService deptService;
 
     //获取一些配置信息，得到具体的微服务

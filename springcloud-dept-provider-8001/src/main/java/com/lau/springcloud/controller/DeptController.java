@@ -1,16 +1,14 @@
 package com.lau.springcloud.controller;
 
 import com.lau.springcloud.pojo.Dept;
-import com.lau.springcloud.service.DeptService;
 
-import com.netflix.discovery.converters.Auto;
+import com.lau.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.awt.*;
 import java.util.List;
 
 @RestController

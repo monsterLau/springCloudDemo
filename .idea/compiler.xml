@@ -12,6 +12,9 @@
         <module name="springcloudeureka7002" />
         <module name="springcloudeureka7001" />
         <module name="springcloudconsumerdept80" />
+        <module name="springcloud-dept-provider-8003" />
+        <module name="springcloud-dept-provider-8002" />
+        <module name="springcloudconsumerdeptfeign" />
         <module name="springcloudapi" />
         <module name="springclouddeptprovider8003" />
       </profile>
@@ -19,6 +22,8 @@
     <bytecodeTargetLevel>
       <module name="microservicecloud" target="1.5" />
       <module name="springcloudcoustomerdept80" target="1.8" />
+      <module name="springclouddeptprovider8002" target="1.8" />
+      <module name="springclouddeptprovider8003" target="1.8" />
       <module name="springcloudproviderdept" target="1.8" />
     </bytecodeTargetLevel>
   </component>
