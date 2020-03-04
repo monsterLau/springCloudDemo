@@ -46,7 +46,7 @@ public class DeptController {
         List<String> services = client.getServices();
         System.out.println("discovery => services:" + services);
         //得到一个具体的微服信息，通过具体的微服务id
-        List<ServiceInstance> instances = client.getInstances("SPRINGCLOUD-CONFIG-DEPT-8001");
+        List<ServiceInstance> instances = client.getInstances("SPRINGCLOUD-PROVIDER-DEPT");
         for (ServiceInstance instance : instances) {
             System.out.println("host:" + instance.getHost() + "\t"
                     + "port:" + instance.getPort() + "\t"
