@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springclouddeptprovider8002" />
         <module name="springclouddeptprovider8001" />
         <module name="springcloudeureka7003" />
         <module name="springcloudeureka7002" />
         <module name="springcloudeureka7001" />
         <module name="springcloudconsumerdept80" />
         <module name="springcloudapi" />
+        <module name="springclouddeptprovider8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

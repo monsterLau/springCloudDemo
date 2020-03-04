@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c3f7d3-3fbd-4bc4-a5bd-10ed65105461" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/myrule/LauRandomRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/myrule/LauRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/java/com/lau/springcloud/DeptProvider_8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/java/com/lau/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/java/com/lau/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/java/com/lau/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8002/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/springclouddeptprovider8003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/java/com/lau/springcloud/DeptProvider_8003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/java/com/lau/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/java/com/lau/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/java/com/lau/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/DeptConsumer_80.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/DeptConsumer_80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/config/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/controller/DeptConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/springcloud/controller/DeptConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/lau/springcloud/DeptConsumer_80.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/lau/springcloud/DeptConsumer_80.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/lau/springcloud/config/ConfigBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/lau/springcloud/config/ConfigBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/lau/springcloud/controller/DeptConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/com/lau/springcloud/controller/DeptConsumerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/DeptProvider_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/DeptProvider_8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/controller/DeptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/DeptProvider_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/DeptProvider_8001.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +87,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -99,7 +118,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Tencent Files/594566609/FileRecv/springcloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-dept-provider-8003/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21609196" />
@@ -107,15 +126,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lau.myrule" />
       <recent name="com.lau.springcloud" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8003\src\main\java" />
+      <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8002\src\main\java" />
+      <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8003\src\main\resources" />
+      <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8002\src\main\resources" />
       <recent name="D:\projects\springCloudDemo\springcloud-eureka-7003\src\main\resources" />
-      <recent name="D:\projects\springCloudDemo\springcloud-eureka-7002\src\main\resources" />
-      <recent name="D:\projects\springCloudDemo" />
-      <recent name="D:\projects\springCloudDemo\springcloud-consumer-dept-80\src\main\resources" />
-      <recent name="D:\projects\springCloudDemo\springcloud-dept-provider-8001\src\main\resources\mybatis\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptConsumer_80">
+  <component name="RunManager" selected="Spring Boot.DeptProvider_8003">
     <configuration name="DeptConsumer_80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloudconsumerdept80" />
       <extension name="coverage">
@@ -157,28 +177,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloudeureka7001" />
+    <configuration name="DeptProvider_8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springclouddeptprovider8002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lau.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.EurekaServer_7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.DeptProvider_8002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer_7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloudeureka7002" />
+    <configuration name="DeptProvider_8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springclouddeptprovider8003" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lau.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.EurekaServer_7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lau.springcloud.DeptProvider_8003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DeptProvider_8003" />
+        <item itemvalue="Spring Boot.DeptProvider_8002" />
         <item itemvalue="Spring Boot.DeptConsumer_80" />
-        <item itemvalue="Spring Boot.EurekaServer_7003" />
         <item itemvalue="Spring Boot.DeptProvider_8001" />
-        <item itemvalue="Spring Boot.EurekaServer_7002" />
-        <item itemvalue="Spring Boot.EurekaServer_7001" />
+        <item itemvalue="Spring Boot.EurekaServer_7003" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +256,8 @@
       <workItem from="1583202411097" duration="12341000" />
       <workItem from="1583239616008" duration="7452000" />
       <workItem from="1583248200437" duration="1474000" />
-      <workItem from="1583282765448" duration="3970000" />
+      <workItem from="1583282765448" duration="10672000" />
+      <workItem from="1583328331840" duration="2600000" />
     </task>
     <task id="LOCAL-00001" summary="创建8080端口子Module">
       <created>1583163001228</created>
@@ -252,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583222543166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入Eureka">
+      <created>1583288754274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583288754274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +332,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建8080端口子Module" />
     <MESSAGE value="搭建注册中心集群" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建注册中心集群" />
+    <MESSAGE value="加入Eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入Eureka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,6 +342,16 @@
           <url>file://$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/service/DeptService.java</url>
           <line>23</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/myrule/LauRandomRule.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/lau/myrule/LauRandomRule.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
