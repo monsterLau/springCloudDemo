@@ -7,7 +7,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 @Data
-@NoArgsConstructor
+//@NoArgsConstructor
 @Accessors(chain = true)  //链式写法
 public class Dept implements Serializable { //Dept 实体类  orm  类表关系映射
 
@@ -20,7 +20,15 @@ public class Dept implements Serializable { //Dept 实体类  orm  类表关系�
         this.dname = dname;
     }
 
-    /*
+    public Dept() {
+    }
+
+    public Dept(Long deptno, String dname, String db_source) {
+        this.deptno = deptno;
+        this.dname = dname;
+        this.db_source = db_source;
+    }
+/*
     链式写法：
        Dept dept =  new Dept();
 

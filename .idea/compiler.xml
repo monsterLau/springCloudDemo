@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springclouddeptprovider8002" />
-        <module name="springclouddeptprovider8001" />
-        <module name="springcloudconsumerdeptfeign" />
-        <module name="springcloudeureka7003" />
         <module name="springcloudeureka7002" />
         <module name="springcloudeureka7001" />
-        <module name="springcloudproviderdepthystrix8001" />
-        <module name="springcloudconsumerdept80" />
+        <module name="springcloudconsumerdeptfeign" />
+        <module name="springcloud-consumer-dept-feign" />
         <module name="springcloud-dept-provider-8003" />
         <module name="springcloud-dept-provider-8002" />
-        <module name="springcloud-consumer-dept-feign" />
+        <module name="springcloudproviderdepthystrix8001" />
         <module name="springcloudapi" />
+        <module name="springcloudconsumerhystrixdashboard" />
         <module name="springclouddeptprovider8003" />
+        <module name="springclouddeptprovider8002" />
+        <module name="springclouddeptprovider8001" />
+        <module name="springcloudconsumerdept80" />
+        <module name="springcloud-provider-dept-hystrix-8001" />
+        <module name="springcloudeureka7003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
