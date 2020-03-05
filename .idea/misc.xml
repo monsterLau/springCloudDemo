@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/springcloud-coustomer-dept-80/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8082/pom.xml" />
       </set>
     </option>
   </component>

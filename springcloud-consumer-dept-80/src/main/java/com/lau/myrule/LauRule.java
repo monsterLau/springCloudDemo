@@ -10,6 +10,6 @@ public class LauRule {
 
     @Bean
     public IRule myRule() {
-        return new LauRandomRule();
+        return new RandomRule();
     }
 }

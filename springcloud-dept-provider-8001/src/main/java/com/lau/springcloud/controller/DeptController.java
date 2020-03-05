@@ -29,7 +29,11 @@ public class DeptController {
 
     @GetMapping("/get/{id}")
     public Dept get(@PathVariable("id") Long id) {
-        return deptService.queryById(id);
+        Dept dept = deptService.queryById(id);
+        if (dept == null) {
+            throw new RuntimeException("no id:" + id);
+        }
+        return dept;
     }
 
     @GetMapping("list")
