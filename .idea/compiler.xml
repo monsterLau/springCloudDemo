@@ -9,6 +9,7 @@
         <module name="springcloudeureka7002" />
         <module name="springcloudeureka7001" />
         <module name="springcloudconsumerdeptfeign" />
+        <module name="springcloudzuul9527" />
         <module name="springcloud-consumer-dept-feign" />
         <module name="springcloud-dept-provider-8003" />
         <module name="springcloud-dept-provider-8002" />
@@ -19,6 +20,7 @@
         <module name="springclouddeptprovider8002" />
         <module name="springclouddeptprovider8001" />
         <module name="springcloudconsumerdept80" />
+        <module name="springcloud-consumer-hystrix-dashboard" />
         <module name="springcloud-provider-dept-hystrix-8001" />
         <module name="springcloudeureka7003" />
       </profile>
