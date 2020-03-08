@@ -30,5 +30,5 @@ eureka:
 #info配置
 info:
   app.name: lau-springcloud
-  company.name: lau
+  company.name: lau   #
 

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c3f7d3-3fbd-4bc4-a5bd-10ed65105461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/springcloudzuul9527.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/java/com/lau/springcloud/ZuulApplication_9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/DeptProvider_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-dept-provider-8001/target/classes/com/lau/springcloud/DeptProvider_8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +61,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="dev_p17_zuul" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -310,6 +302,31 @@
             </State>
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -322,6 +339,7 @@
     <option name="OPEN_TABS">
       <set>
         <option value="1" />
+        <option value="2" />
       </set>
     </option>
   </component>
@@ -364,7 +382,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/springcloud-dept-provider-8001/src/main/java/com/lau/springcloud/dao/DeptDao.java</url>
           <line>17</line>
-          <properties class="com.lau.springcloud.dao.DeptDao" />
+          <properties class="com.lau.springcloud.dao.DeptDao" method="queryById" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
