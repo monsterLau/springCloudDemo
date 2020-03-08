@@ -20,5 +20,8 @@ info:
 
 zuul:
   routes:
-   mydept.serviceId: springcloud-provider-dept
-   mydept.path: /mydept/**
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+  ignored-services: springcloud-provider-dept  #不能在使用该路径访问:http://www.laustudy.com:9527/springcloud-provider-dept/dept/list
+  prefix: /lau   #请求前面添加前缀：http://www.laustudy.com:9527/lau/mydept/dept/list
+#  ignored-services: "*"   #隐藏全部
